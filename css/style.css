@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #e5e5e5;
 }
 
 .navbar {
@@ -18,10 +19,52 @@ body {
     height: 206px;
 }
 
-.list ul{
+.list ul {
+    display: flex;
     list-style:none;
+    align-items: center;
+    line-height: 24px;
 }
 
-.logo { 
-    justify-content: space-between;
+.list li {
+    padding-right: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
+
+.board {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.white-block {
+    background-color: #FFFFFF;
+    height: 136px;
+    width: 352px;
+    margin-top: -106px;
+}
+
+.green-block {
+    background-color: #49AA26;
+    height: 136px;
+    width: 352px;
+    margin-top: -106px;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #49AA26;
+}
+
+
