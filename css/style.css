@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+.header {
+    border: 238px solid #2D4A22;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #2D4A22;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.logo { 
+    justify-content: space-between;
+
+}
