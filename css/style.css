@@ -3,19 +3,25 @@
     padding: 0;
 } 
 
-.header {
-    border: 238px solid #2D4A22;
-    width: 100%;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
-    width: 100%;
     background-color: #2D4A22;
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
+    padding-top: 32px;
+    padding-left: 160px;
+    padding-right: 160px;
+    height: 206px;
+}
+
+.list ul{
+    list-style:none;
 }
 
 .logo { 
     justify-content: space-between;
-
 }
