@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e5e5e5;
+    box-sizing: content-box;
 }
 
 .navbar {
@@ -14,8 +15,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 8%;
+    padding-right: 8%;
     height: 206px;
 }
 
@@ -44,18 +45,51 @@ body {
     padding-right: 160px;
 }
 
-.white-block {
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: -103px;
+    font-family: Poppins;
+    
+}
+
+.white-card {
     background-color: #FFFFFF;
     height: 136px;
     width: 352px;
-    margin-top: -106px;
+    color: #363F5F;
 }
 
-.green-block {
+.card-top{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25.19px;
+    padding-left: 32px;
+}
+
+.green-card {
     background-color: #49AA26;
     height: 136px;
     width: 352px;
-    margin-top: -106px;
+    color: #FFFFFF;
+}
+
+.text-saida {
+    color: #969CB2;
+}
+
+.value { 
+    padding-left: 32px;
+    font-size: 36px;
+}
+
+.card-icones {
+    padding-right: 20.67px;
 }
 
 a {
