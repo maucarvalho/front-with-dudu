@@ -4,10 +4,8 @@
 } 
 
 body {
-    margin: 0;
-    padding: 0;
     background-color: #e5e5e5;
-    box-sizing: content-box;
+    font-family: 'Poppins';
 }
 
 .navbar {
@@ -15,25 +13,20 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
+    height: 206px;
     padding-left: 8%;
     padding-right: 8%;
-    height: 206px;
 }
 
 .list ul {
     display: flex;
     list-style:none;
     align-items: center;
-    line-height: 24px;
 }
 
 .list li {
     padding-right: 32px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
     color: #FFFFFF;
 }
 
@@ -41,19 +34,24 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 32px;
-    padding-left: 160px;
-    padding-right: 160px;
 }
 
 .cards {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: -103px;
     padding-left: 8%;
     padding-right: 8%;
-    margin-top: -103px;
-    font-family: Poppins;
     
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25.19px;
+    padding-left: 32px;
 }
 
 .white-card {
@@ -61,15 +59,6 @@ body {
     height: 136px;
     width: 352px;
     color: #363F5F;
-}
-
-.card-top{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 25.19px;
-    padding-left: 32px;
 }
 
 .green-card {
@@ -90,6 +79,45 @@ body {
 
 .card-icones {
     padding-right: 20.67px;
+}
+
+.table {
+    font-size: 16px;
+    width: 100%;
+    color: #969CB2; 
+    border-collapse:collapse; 
+}
+
+.div-tabela {
+    padding-top: 64px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.table-menu {
+    padding-left: 32px;
+    height: 64px;
+}
+
+.table-itens {
+    background-color: #FFFFFF;
+    height: 64px;
+    color: #363F5F;
+    border: 0px;
+}
+
+td {
+    padding-left: 32px;
+}
+
+.saldo-negativo {
+    color: #E92929;
+
+}
+
+.saldo-positivo {
+    color: #49AA26;
+    ;
 }
 
 a {
