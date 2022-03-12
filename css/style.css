@@ -83,31 +83,51 @@ body {
 
 .table {
     font-size: 16px;
-    width: 100%;
     color: #969CB2; 
-    border-collapse:collapse; 
-}
-
-.div-tabela {
-    padding-top: 64px;
     padding-left: 8%;
     padding-right: 8%;
 }
 
 .table-menu {
-    padding-left: 32px;
-    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 64px;
+
+}
+
+.item-title {
+    flex: 2;
+}
+
+.item-price {
+    flex: 1;
+}
+
+.item-caregory {
+    flex: 1;
+    align-items: center;
+    display: flex;
+}
+
+.item-date {
+    flex: 1;
 }
 
 .table-itens {
     background-color: #FFFFFF;
     height: 64px;
     color: #363F5F;
-    border: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 8px;
 }
 
-td {
-    padding-left: 32px;
+.table-itens-last {
+    color: #969CB2;
 }
 
 .saldo-negativo {
