@@ -5,12 +5,10 @@
 
 body {
     background-color: #e5e5e5;
-    font-family: 'Poppins';
-}
+    font-family: 'Poppins';}
 
 .main {
-    padding-left: 8%;
-    padding-right: 8%;
+    padding: 0 8%;
 }
 
 .navbar {
@@ -47,28 +45,43 @@ body {
     border-radius: 5px;
 }
 
+.card {
+    padding: 25px 32px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.card:nth-child(1) {
+    margin-right: 10px;
+}
+
+.card:nth-child(2) {
+    margin-right: 10px;
+}
+
+.card:nth-child(3) {
+
+}
+
 .card-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 25.19px;
-    padding-left: 32px;
+    /* padding-top: 25.19px;
+    padding-left: 32px; */
 }
 
 .white-card {
     background-color: #FFFFFF;
-    height: 136px;
-    width: 352px;
     color: #363F5F;
-    border-radius: 5px;
+    
 }
 
 .green-card {
     background-color: #49AA26;
-    height: 136px;
-    width: 352px;
     color: #FFFFFF;
-    border-radius: 5px;
 }
 
 .text-saida {
@@ -76,12 +89,12 @@ body {
 }
 
 .value { 
-    padding-left: 32px;
+    /* padding-left: 32px; */
     font-size: 36px;
 }
 
 .card-icones {
-    padding-right: 20.67px;
+    /* padding-right: 20.67px; */
 }
 
 .table {
