@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Slab';
 }
 
 .container {
     background-color: #312E38;
     display: flex;
     height: 100vh;
-    font-family: 'Roboto Slab';
 }
 
 .background-image {
@@ -42,25 +42,35 @@
 .form-input input {
     background: #232129;
     height: 40px;
+    width: 300px;
     margin: 0;
     border: 0;
     font-size: 16px;
     padding-left: 18px;
-    font-family: 'Roboto Slab';
+    border-radius: 5px;
+    color: #F4EDE8;
+}
+
+.form-input input:active {
+    background: red;
+    color: pink;
 }
 
 .button {
     display: flex;
     align-items: center;
-    border: 1px solid #FF9000;
     border-radius: 5px;
-    background-color: #FF9000;
     height: 40px;
+    padding-top: 24px;
 }
 
 button {
-    text-align: center;
-
+    align-items: center;
+    border: 1px solid #FF9000;
+    border-radius: 5px;
+    height: 40px;
+    width: 340px;
+    background-color: #FF9000;
 }
 
 h1 {
@@ -69,4 +79,36 @@ h1 {
     font-size: 24px;
     color: #F4EDE8;
     font-weight: normal;
+}
+
+.lost-pass {  
+    padding-top: 24px;
+}
+
+.lost-pass a{
+    color: #F4EDE8;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.lost-pass a:hover {
+    color: #b5b1ac;
+    text-decoration: none;
+}
+
+.create {
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 60px;
+    align-items: center;
+}
+
+.create a {
+    color: #FF9000;
+    text-decoration: none;
+}
+
+.create a:hover {
+    color: #b5b1ac;
+    text-decoration: none;
 }
