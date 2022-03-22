@@ -11,12 +11,23 @@
     height: 100vh;
 }
 
-.background-image {
+.background-image-index {
     background: url('../img/img-home.png') no-repeat;
     background-size: cover;
     width: 100%;
     flex: 1;
 }
+
+.background-image-cadastro {
+    background: url('../img/img-create.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    flex: 1;
+}
+
+/* .background-image-forgot {
+     background: url('../img/img-create.png') no-repeat;
+} */
 
 .forms {
     color: #999591;
@@ -51,10 +62,11 @@
     color: #F4EDE8;
 }
 
-.form-input input:active {
-    background: red;
-    color: pink;
-}
+.form-input:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
 
 .button {
     display: flex;
@@ -85,10 +97,25 @@ h1 {
     padding-top: 24px;
 }
 
+.back {  
+    padding-top: 24px;
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+}
+
+.back a{
+    color: #F4EDE8;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
 .lost-pass a{
     color: #F4EDE8;
     font-size: 16px;
     font-weight: normal;
+    text-decoration: none;
 }
 
 .lost-pass a:hover {
@@ -100,7 +127,8 @@ h1 {
     font-size: 16px;
     font-weight: normal;
     padding-top: 60px;
-    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .create a {
@@ -111,4 +139,8 @@ h1 {
 .create a:hover {
     color: #b5b1ac;
     text-decoration: none;
+}
+
+.nav {
+    display: flex;
 }
