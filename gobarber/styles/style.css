@@ -157,5 +157,13 @@ li {
     padding-right: 32px;
     font-size: 16px;
     color: #FFFFFF;
-    text-decoration: none
+    text-decoration: none;
+}
+
+.ops {
+    text-decoration: none;
+}
+
+.ops:hover{
+    border-bottom: 2px #FF9000 solid;
 }
